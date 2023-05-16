@@ -1,0 +1,214 @@
+/* NAV-BAR Section */ 
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+
+* {
+box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a, button {
+
+font-family:'Covered By Your Grace', cursive; 
+font-weight: 400;
+font-size: 20px;
+color:  #E0B0FF;
+text-decoration: none;
+}
+
+header{
+
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+  width: 205px;
+}
+
+.nav__links {
+list-style: none;
+  
+}
+
+.nav__links li {
+display: inline-block;
+  padding:0px 10px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #a875e6
+}
+
+button {
+ padding: 9px 25px;
+ background-color: rgba(0,0,0);
+ border: none;
+ border-radius: 50px;
+ cursor: pointer;
+ transition: all 0.3 ease 0s; 
+}
+
+button:hover {
+ background-color: rgba(0,0,0);
+}
+
+
+/* The-End of the Nav bar */
+
+/* All the content that is found on the main page */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.artpositive{
+font-family:"Sedgwick Ave Display", cursive; 
+font-weight: 400;
+font-size: 20px;
+color:  #ac56e6;
+text-decoration: none;
+}
+
+.outline-box {
+    border: 6px solid #000;
+    border-radius: 2%;
+    padding: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.outline2nd{
+border: 6px solid #000;
+border-radius: 2%;
+padding: 30px;
+padding-left: 20px;
+font-weight: bold;
+}
+
+.backgroundnyc{
+font-family:"Sedgwick Ave Display", cursive; 
+font-weight: 400;
+font-size: 20px;
+color:  #ac56e6;
+text-decoration: none;
+}
+
+/* The-End of the Main Page Content */
+
+/* The-Start of the About Me Content */
+
+.aboutmepara{
+font-family:"Sedgwick Ave Display", cursive; 
+font-weight: 400;
+font-size: 16px;
+color:  #ac56e6;
+text-decoration: none;
+}
+
+.infopara {
+border: 6px solid #000;
+border-radius: 2%;
+padding: 30px;
+padding-left: 20px;
+font-weight: bold;
+
+}
+
+
+  
+
+
+
+/* The-End of the About Me Content */
+
+/* The-Start of the Music Playlist Page */
+
+.musicback{
+background-color:#212121
+;
+}
+.musichb{
+background-color:#212121
+;
+}
+.logo2{
+cursor: pointer;
+width: 165px;
+background-color:#212121;
+}
+
+li, a, button {
+
+font-family:'Covered By Your Grace', cursive; 
+font-weight: 400;
+font-size: 20px;
+color:  #a875e6;
+text-decoration: none;
+}
+
+.musicnav{
+background-color:#212121;
+}
+.nav__links2 {
+list-style: none;
+}
+
+.nav__links2 li {
+display: inline-block;
+  padding:0px 10px;
+}
+
+.nav__links2 li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links2 li a:hover {
+  color: #a875e6
+}
+
+.buttmusic{
+ padding: 9px 25px;
+ background-color:#212121;
+ border: none;
+ border-radius: 50px;
+ cursor: pointer;
+ transition: all 0.3 ease 0s; 
+}
+
+button:hover {
+ background-color: rgba(0,0,0);
+}
+
+.listback1, .listback2, .listback3, .listback5, .listback6, .listback4, .cta2, .buttmusic, .nav__links2{
+background-color:#212121;
+}
+
+
+/* The-End of the Music Playlist Page */
+
+/* The-Start of the Contact Page */
+
+blockquote{
+ align-items: center;
+}
+
+
+
+/* The-End of the Content Page */
